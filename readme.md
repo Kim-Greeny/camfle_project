@@ -57,18 +57,17 @@ camfle_project/<br>
 * HOW TO BUILD
   - Python 3.x 설치
   - Flask 프레임워크 설치
-  - SQLite 데이터베이스 설치
-  - 의존성 패키지 설치 : `pip install -r requirements.txt`
+  - Goorm IDE 통해 git pull
 
 * HOW TO INSTALL
   - 레포지토리 클론 : `git clone https://github.com/your-username/camfle-project.git`
-  - 가상환경 생성 및 활성화
-  - 의존성 패키지 설치 : `pip install -r requirements.txt`
+  - Goorm IDE 통해 가상환경 생성 및 활성화
   - 데이터베이스 초기화 : `python database.py`
   - 서버 실행 : `python application.py`
+  - 서비스 url 통하여 접속
 
 * HOW TO TEST
-  - 웹 브라우저에서 `http://localhost:5000/list` 접속
+  - 웹 브라우저에서 https://givoandtake.run.goorm.io/list 접속
   - 회원가입 및 로그인 테스트
   - 물품 등록 및 구매 테스트
   - 시간표 매칭 기능 테스트
